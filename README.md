@@ -1,13 +1,11 @@
 # Docker Ansible AWS Image
 
-A Docker image with the following software installed:
+A Docker image for playing with Ansible with the following software installed:
 
 * Ansible
 * AWS Command Line Interface
 * boto
 * boto3
-
-and few other utility programs such as `git`, `bash` and `make` which may be required for playing with Ansible.
 
 ## Docker Hub
 
