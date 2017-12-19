@@ -1,4 +1,4 @@
-# Docker Ansible AWS
+# Docker Ansible AWS Image
 
 A Docker image with the following software installed:
 
