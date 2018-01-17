@@ -8,7 +8,8 @@ RUN apk --update add \
         build-base \
         bash \
         git \
-        openssh && \
+        openssh \
+        rsync && \
     apk --update add --virtual build-dependencies \
         python-dev \
         libffi-dev \
