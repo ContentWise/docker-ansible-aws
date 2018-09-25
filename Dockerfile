@@ -15,7 +15,7 @@ RUN apk --update add \
         libffi-dev \
         openssl-dev && \
     pip install --upgrade pip cffi && \
-    pip install ansible==2.4.1.0 awscli==1.14.9 boto boto3 && \
+    pip install ansible==2.6.4 awscli==1.16.20 boto boto3 && \
     apk del build-dependencies && \
     rm -rf /var/cache/apk/*
 CMD ["bash"]
